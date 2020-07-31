@@ -1,0 +1,31 @@
+phone Screen==>
+
+Given a sorted array of integers(1 to n), return the first missing integer in the range 1 to n. Discussed a basic approach first and then disussed Binary Search approach to reduce run time. Ended up writing the code for Binary Search. 
+
+virtual onsite
+Given a bomb sequence pattern as a binary sequence (something like 1011), and a defuse pattern (something like 1101) and list of safe patterns (0000, 1010, 1100, etc), return a String response "DEFUSED" if the bomb can be defused, "RUN" otherwise. Note: Going from one to state to next is done by flipping just one bit in the current state. (You can go from 1011 to 1010, 1111, 0011, etc).
+
+
+Interview 2:
+Easy-Medium level question. Given an input to first name to list of emails for several people. If name and email for any person matches, merge the emails list together. Return the final list of merged emails wherever possible. I am assuming this round was focussed on OOP as well.
+Disucssed DS for storing the names and emails, Map, Multi-Map etc. Talked about how code would be broken down into different helper methods etc. Follow ups on this as well.
+
+Interview 3:
+Warm-up question: Given a matrix (M X N) of integers, return true if a Path exists between (0,0) and (M-1, N-1). You can only go in 4 directions (Up, Down, Left, Right) and can only go to a neighbor if the value is less than or equal to current value (cannot move to a cell that has higher value than current).
+
+2nd question:
+For the same matrix above, now moving from one cell to another has a cost of difference between the cell values. Find the minimum cost for going from (0,0) to (M-1, N-1).
+Discussed DFS for this and how we can modify the code. Interviewer said it wil work but can we make it better. Discussed Dijkshtra's algorithm and wrote code for it. Discussed run times.
+
+Interview 4:
+Given logs from a YouTube service, and an Integer K. Return K most searched strings from the logs. Discussed creating map of unique strings and counts and going over the map to find the K strings with highest counts by sorting the unique strings by their count. Talked about improving the sort from O(NlogN) to O(NlogK) by using a min heap to sort.
+Follow ups: How would you change your code for a stream of logs, went into distributed systems a little bit. Interviewer said that my points and solution was acceptable.
+
+Interview 5:
+Behavioral round. Interviewer thought it was a coding round and started describing the question, I had to clarify that recruiter said this is going to be a behavioral round but I am happy to answer a coding question as well. Interviewer was confused and checked his notes and then apologized. He quickly spent 5 mins going over a pdf that recruiter sent him to refresh his memory on what is to be asked.
+He followed up with several "Can you describe a situation" questions.
+Very subjective, so hard to say but I think it went well. Discussed a lot of situations from the last 5 years, shared a few laughs about a few of them.
+
+
+
+
