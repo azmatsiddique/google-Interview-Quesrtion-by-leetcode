@@ -8,5 +8,8 @@ class Solution:
             if arr[mid]==arr[low]==arr[high]:high-=1
             elif arr[mid]==arr[high]:high=mid
             elif mid<high and arr[mid]>arr[mid+1]:return arr[mid+1]
+            elif mid>low and arr[mid-1]>arr[mid]:return arr[mid]
+            elif arr[low]<arr[mid]:low=mid+1
+            elif arr[mid]<arr[high]:high=mid-1
             else: low+=1
         return arr[low]
